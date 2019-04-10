@@ -1,0 +1,25 @@
+{
+  "name": "aanyszek/x-bp-core",
+  "description": "Core element to Laravel BackPack plugins.",
+  "require": {
+  },
+  "authors": [
+    {
+      "name": "Artur Anyszek",
+      "email": "a.anyszek@linux.pl"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "AAnyszek\\XBPCore\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "AAnyszek\\XBPCore\\PackageServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev"
+}
